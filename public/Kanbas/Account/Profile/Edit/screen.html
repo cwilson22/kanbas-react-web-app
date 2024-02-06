@@ -1,86 +1,96 @@
-<table>
-    <tbody style="vertical-align: top">
-        <tr>
-            <td>
-                <ul>
-                    <li><a href="/Kanbas/Account/Profile/screen.html">
-                    Account</a></li>
-                    <li>
-                    <a href="/Kanbas/Dashboard/screen.html">Dashboard</a>
-                    </li>
-                    <li>
-                    <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
-                    </li>
-                    <li>
-                    <a href="/Kanbas/Calendar/index.html">Calendar</a></li>
-                    <li><a href="/Kanbas/Inbox/index.html">Inbox</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Studio</a></li>
-                    <li><a href="#">Comms</a></li>
-                    <li><a href="#">Help</a></li>
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li><a href="#">Notifications</a></li>
-                    <li><a href="screen.html">Profile</a></li>
-                    <li><a href="#">Files</a></li>
-                    <li><a href="#">Settings</a></li>
-                    <li><a href="#">ePortfolios</a></li>
-                    <li><a href="#">Shared Content</a></li>
-                    <li><a href="#">The Hub</a></li>
-                    <li><a href="#">Qwickly Course Tools</a></li>
-                    <li><a href="#">Global Announcements</a></li>
-                </ul>
-            </td>
-            <td>
-                <h1>Connor Wilson</h1>
-                Name:* 
-                <input type="text" value="Connor Wilson">
-                Pronouns: 
-                <select><option value="none">None</option></select>
-                <br><br>
-                Title: 
-                <input type="text">
-                <br>
-                <h2>Contact</h2>
-                No registered services, you can add some on the <a href="#">settings</a> page.
-                <br>
-                <h2>Biography</h2>
-                PhD student in data visualization studying aesthetic metrics and optimization for network diagrams. Enjoyer of board and card games.
-                <br>
-                <textarea cols="60" rows="4">PhD student in data visualization studying aesthetic metrics and optimization for network diagrams. Enjoyer of board and card games.</textarea>
-                <br>
-                <h2>Links</h2>
-                <ul>
-                    <li><a href="https://cwilson22.github.io/connorwilson.phd">My homepage</a> <a href="#" style="text-decoration: none;">-> Links to an external site.</a></li>
-                </ul>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Title</th>
-                            <th></th>
-                            <th>URL</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><input type="text" value="My homepage"></td>
-                            <td>-></td>
-                            <td><input type="text" value="https://cwilson22.github.io/connorwilson.phd"></td>
-                            <td><a href="#">Remove</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <button>Add another link</button>
-                <br>
-                <button>Cancel</button>
-                <a href="/Kanbas/Account/Profile/screen.html"><button>Save Profile</button></a>
-                <br>
-                <a href="/Kanbas/Account/Profile/Edit/screen.html"><button>Edit Profile</button></a>
-                <a href="/Kanbas/Account/Profile/screen.html"><button>Cancel Editing</button></a>
-            </td>
-        </tr>
-    </tbody>
-</table>
+<html>
+  <head>
+    <link rel="stylesheet" href="/Kanbas/styles.css" />
+    <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <table>
+        <tbody style="vertical-align: top">
+            <tr>
+                <td>
+                    <ul class="wd-kanbas-navigation" style="height: 100%;">
+                        <li><a href="http://northeastern.edu" style="font-size: xx-large; color: red;">N</a></li>
+                        <li class="wd-active"><a href="/Kanbas/Account/Profile/screen.html">
+                          <i class="fa fa-user"></i><br/>Account</a></li>
+                        <li>
+                        <a href="/Kanbas/Dashboard/screen.html"><i class="fa fa-tachometer"></i><br/>Dashboard</a>
+                        </li>
+                        <li>
+                        <a href="/Kanbas/Courses/Home/screen.html"><i class="fa fa-book"></i><br/>Courses</a>
+                        </li>
+                        <li>
+                        <a href="/Kanbas/Calendar/index.html"><i class="fa fa-calendar"></i><br/>Calendar</a></li>
+                        <li><a href="/Kanbas/Inbox/index.html"><i class="fa fa-inbox" aria-hidden="true"></i><br/>Inbox</a></li>
+                        <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i><br/>History</a></li>
+                        <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i><br/>Commons</a></li>
+                        <li><a href="#"><i class="fa fa-sitemap" aria-hidden="true"></i><br/>Studio</a></li>
+                        <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i><br/>Help</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#">Notifications</a></li>
+                        <li><a href="screen.html">Profile</a></li>
+                        <li><a href="#">Files</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">ePortfolios</a></li>
+                        <li><a href="#">Shared Content</a></li>
+                        <li><a href="#">The Hub</a></li>
+                        <li><a href="#">Qwickly Course Tools</a></li>
+                        <li><a href="#">Global Announcements</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <h1>Connor Wilson</h1>
+                    Name:* 
+                    <input type="text" value="Connor Wilson">
+                    Pronouns: 
+                    <select><option value="none">None</option></select>
+                    <br><br>
+                    Title: 
+                    <input type="text">
+                    <br>
+                    <h2>Contact</h2>
+                    No registered services, you can add some on the <a href="#">settings</a> page.
+                    <br>
+                    <h2>Biography</h2>
+                    PhD student in data visualization studying aesthetic metrics and optimization for network diagrams. Enjoyer of board and card games.
+                    <br>
+                    <textarea cols="60" rows="4">PhD student in data visualization studying aesthetic metrics and optimization for network diagrams. Enjoyer of board and card games.</textarea>
+                    <br>
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href="https://cwilson22.github.io/connorwilson.phd">My homepage</a> <a href="#" style="text-decoration: none;">-> Links to an external site.</a></li>
+                    </ul>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th></th>
+                                <th>URL</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="text" value="My homepage"></td>
+                                <td>-></td>
+                                <td><input type="text" value="https://cwilson22.github.io/connorwilson.phd"></td>
+                                <td><a href="#">Remove</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button>Add another link</button>
+                    <br>
+                    <button>Cancel</button>
+                    <a href="/Kanbas/Account/Profile/screen.html"><button>Save Profile</button></a>
+                    <br>
+                    <a href="/Kanbas/Account/Profile/Edit/screen.html"><button>Edit Profile</button></a>
+                    <a href="/Kanbas/Account/Profile/screen.html"><button>Cancel Editing</button></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </body>
+</html>
