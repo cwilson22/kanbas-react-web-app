@@ -1,0 +1,14 @@
+.wd-breadcrumb {
+    color: red;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.curlink {
+    color: black;
+}
+
+.wd-breadcrumb hr {
+    color: black;
+}

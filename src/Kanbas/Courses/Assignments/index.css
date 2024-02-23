@@ -1,0 +1,85 @@
+.wd-pos-relative-nudge-up {
+    position: relative;
+    bottom: 26px;
+}
+
+.wd-pos-relative-nudge-down {
+    position: relative;
+    top: 10px;
+}
+
+.wd-zindex-bring-to-front {
+    z-index: 10;
+}
+
+.wd-assign ,
+.wd-assign  * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-assign {
+    margin: 5px;
+}
+  
+
+.wd-assign  > li {
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    border-left: none !important;
+}
+
+.wd-assign  > li > a {
+    text-decoration: none;
+    color: red;
+}
+
+.wd-assign  > li > div {
+    padding: 6px;
+    border-left: 1px solid gray !important;
+}
+
+.wd-assign  > li > ul > li {
+  padding: 5px;
+  border-top: 1px solid gray !important;
+  border-left: 3px solid green;
+}
+
+.wd-assign  > li {
+  margin-bottom: 20px;
+}
+
+.list-group {
+    border-radius: 0px;
+}
+
+.list-group-item {
+    border-radius: 0px;
+}
+
+.wd-round {
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 4px;
+    font-size: smaller;
+}
+
+.wd-smaller {
+    font-size: x-small;
+    color: #505050;
+}
+
+.wd-bigger {
+    font-size: large;
+}
+
+.top-buffer {
+    margin-top: 15px;
+}
+
+.wd-link-nostyle {
+    text-decoration: none;
+    color: red;
+}
