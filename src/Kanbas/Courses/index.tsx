@@ -1,4 +1,3 @@
-import { courses } from "../../Kanbas/Database";
 import { Routes, Route, Navigate, useParams } from "react-router-dom";
 import CourseNavigation from "./Navigation";
 import Breadcrumb from "./Breadcrumb";
@@ -8,9 +7,9 @@ import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/Editor";
 import Grades from "./Grades";
 
-function Courses() {
-    //   const { courseId } = useParams();
-    //   const course = courses.find((course) => course._id === courseId);
+function Courses({ courses }: { courses: any[]; }) {
+    const { courseId } = useParams();
+    const course = courses.find((course) => course._id === courseId);
     return (
         <div>
             <Breadcrumb/>
